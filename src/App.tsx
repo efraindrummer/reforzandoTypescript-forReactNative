@@ -1,9 +1,10 @@
 import React from 'react'
-import { ContadorConHook } from './components/ContadorConHook'
+//import { ContadorConHook } from './components/ContadorConHook'
 //import { Contador } from './components/Contador'
 //import { Funciones } from './typescript/Funciones'
 //import { ObjetosLiterales } from './typescript/ObjetosLiterales'
 //import { TiposBasicos } from './typescript/TiposBasicos';
+import { Login } from './components/Login';
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
       {/* <ObjetosLiterales /> */}
       {/* <Funciones /> */}
       {/* <Contador /> */}
-      <ContadorConHook />
+      {/* <ContadorConHook /> */}
+      <Login />
     </div>
   )
 }
